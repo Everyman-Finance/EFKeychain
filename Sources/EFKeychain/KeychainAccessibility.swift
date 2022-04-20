@@ -32,9 +32,9 @@ public enum KeychainAccessibility {
 private let accessibilityLookup: [KeychainAccessibility: CFString] = {
 	let lookup: [KeychainAccessibility: CFString] =
 		[
-		.always: 			kSecAttrAccessibleAlways,
+		.always: 		   kSecAttrAccessibleAlways,
 		.afterFirstUnlock: kSecAttrAccessibleAfterFirstUnlock,
-		.whenUnlocked: 		kSecAttrAccessibleWhenUnlocked
+		.whenUnlocked: 	   kSecAttrAccessibleWhenUnlocked
 		]
 	
 	return lookup
