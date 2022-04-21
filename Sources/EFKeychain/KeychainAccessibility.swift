@@ -12,6 +12,7 @@ protocol KeychainAttributeRepresentable {
 	var attributeValue: CFString { get }
 }
 
+/// Enum that defines the accessibility of a Keychain object.
 public enum KeychainAccessibility {
 	/// Data in Keychain can be accessed regardless of whether the device is unlocked
 	case always

@@ -11,7 +11,6 @@ import Foundation
 public extension Keychain {
     
     struct Key: Hashable, RawRepresentable, ExpressibleByStringLiteral {
-        
         public var rawValue: String
         
         public init(rawValue: String) {
