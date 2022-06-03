@@ -4,11 +4,15 @@
 
 ## Usage
 
-ReadMe will be updated with installation/documentation soon
+import EFKeychain in your view controller class
 
 **Example**
 
-`example-here`
+Set Keychain value
+`Keychain.standard.set(5, forKey: "tokens_remaining")`
+
+Get Keychain value
+`Keychain.standard.integer(forKey: "tokens_remaining")`
 
 ## Installation
 
